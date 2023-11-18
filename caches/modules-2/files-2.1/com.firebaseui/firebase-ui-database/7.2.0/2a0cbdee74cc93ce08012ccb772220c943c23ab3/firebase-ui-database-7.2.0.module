@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.firebaseui",
+    "module": "firebase-ui-database",
+    "version": "7.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "77musdrrkzcdbknhwgrgpk4aye"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.firebaseui",
+          "module": "firebase-ui-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-database"
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-ui-database-7.2.0.aar",
+          "url": "firebase-ui-database-7.2.0.aar",
+          "size": 48877,
+          "sha512": "f151f8810f1bf51115081c387048220882d7d200272e979012062d275313cd1866eebead525569b9f8ee0831abb6fa48eb96445f9d213e06e0631f6016197549",
+          "sha256": "a4197488c45e2c991ec0a2da431d28fd7e8117f3e4c64e4dd317635a44da8f66",
+          "sha1": "37f3104bc497a2bc4950cf62a2cb186efcc31e78",
+          "md5": "324a6b82e3a12e24019390228bbcbaa1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "26.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.firebaseui",
+          "module": "firebase-ui-common",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-database"
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-ui-database-7.2.0.aar",
+          "url": "firebase-ui-database-7.2.0.aar",
+          "size": 48877,
+          "sha512": "f151f8810f1bf51115081c387048220882d7d200272e979012062d275313cd1866eebead525569b9f8ee0831abb6fa48eb96445f9d213e06e0631f6016197549",
+          "sha256": "a4197488c45e2c991ec0a2da431d28fd7e8117f3e4c64e4dd317635a44da8f66",
+          "sha1": "37f3104bc497a2bc4950cf62a2cb186efcc31e78",
+          "md5": "324a6b82e3a12e24019390228bbcbaa1"
+        }
+      ]
+    }
+  ]
+}

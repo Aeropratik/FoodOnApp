@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.firebaseui",
+    "module": "firebase-ui-common",
+    "version": "7.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "77musdrrkzcdbknhwgrgpk4aye"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-ui-common-7.2.0.aar",
+          "url": "firebase-ui-common-7.2.0.aar",
+          "size": 6528,
+          "sha512": "5aa7370ae390eb61d7854f8d2c8367f40726859ac32e14ef2ad17debf8f432a0b6e79cb993a77ac5460fb342ec73268d434e4cb4adb75e3db603f4355243384e",
+          "sha256": "ddc5a8368e03cc45dd9d7b2051b8dd0bce2104ae0b152794c2c7e56b7b4825f1",
+          "sha1": "33b2a6881509f4f8314de12a1b1ac73ce541673a",
+          "md5": "f093731ba26191434e6dee4b6108ac98"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-ui-common-7.2.0.aar",
+          "url": "firebase-ui-common-7.2.0.aar",
+          "size": 6528,
+          "sha512": "5aa7370ae390eb61d7854f8d2c8367f40726859ac32e14ef2ad17debf8f432a0b6e79cb993a77ac5460fb342ec73268d434e4cb4adb75e3db603f4355243384e",
+          "sha256": "ddc5a8368e03cc45dd9d7b2051b8dd0bce2104ae0b152794c2c7e56b7b4825f1",
+          "sha1": "33b2a6881509f4f8314de12a1b1ac73ce541673a",
+          "md5": "f093731ba26191434e6dee4b6108ac98"
+        }
+      ]
+    }
+  ]
+}
